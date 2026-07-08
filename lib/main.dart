@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:islami/core/resources/routes_manager.dart';
+import 'package:islami/ui/home/screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Islami",
-      home: Scaffold(),
+      routes: {RoutesManager.homeRouteName: (_) => HomeScreen()},
+      initialRoute: RoutesManager.homeRouteName,
     );
   }
 }
-
