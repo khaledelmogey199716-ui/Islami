@@ -6,6 +6,8 @@ abstract class AssetsManager {
       sebhaIcon = "assets/icons/ic_sebha.svg",
       radioIcon = "assets/icons/ic_radio.svg",
       timeIcon = "assets/icons/ic_time.svg",
+      suraNumber = "assets/icons/ic_sura_number.svg",
+      mostRecent = "assets/images/img_most_recent.png",
       onBoarding1 = "assets/images/img_onboarding1.png",
       onBoarding2 = "assets/images/img_onboarding2.png",
       onBoarding3 = "assets/images/img_onboarding3.png",
