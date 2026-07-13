@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         RoutesManager.homeRouteName: (_) => HomeScreen(),
         RoutesManager.onBoardingRouteName: (_) => OnBoarding(),
       },
-      initialRoute: RoutesManager.onBoardingRouteName,
+      initialRoute: RoutesManager.homeRouteName,
     );
   }
 }

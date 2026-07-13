@@ -104,7 +104,7 @@ class _OnBoardingState extends State<OnBoarding> {
                   currentPage == 0
                   ? const SizedBox(width: 60,)
                   : OnBoardingButton(
-                    title: "Back",
+                    title: StringsManager.back,
                     action: () {
                       controller.previousPage(
                         duration: const Duration(milliseconds: 500),
@@ -123,8 +123,8 @@ class _OnBoardingState extends State<OnBoarding> {
                   ),
                   OnBoardingButton(
                     title: currentPage == onBoarding.length - 1
-                        ? "Finish"
-                        : "Next",
+                        ? StringsManager.finish
+                        : StringsManager.next,
                     action: () {
                       if (currentPage == onBoarding.length - 1) {
                         Navigator.of(context).pushReplacementNamed(RoutesManager.homeRouteName);
